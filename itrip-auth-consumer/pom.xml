@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.ekgc.itrip</groupId>
-	<artifactId>itrip-consumer-commons</artifactId>
+	<artifactId>itrip-auth-consumer</artifactId>
 	<version>3.1.0</version>
 	<packaging>jar</packaging>
 
@@ -23,17 +23,10 @@
 	</properties>
 
 	<dependencies>
-		<!-- itrip-commons -->
 		<dependency>
 			<groupId>cn.ekgc.itrip</groupId>
 			<artifactId>itrip-commons</artifactId>
 			<version>${parent.version}</version>
-		</dependency>
-
-		<!-- spring-cloud openfeign远程调用 -->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 
 		<dependency>

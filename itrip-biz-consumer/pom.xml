@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.ekgc.itrip</groupId>
-	<artifactId>itrip-commons</artifactId>
+	<artifactId>itrip-biz-consumer</artifactId>
 	<version>3.1.0</version>
 	<packaging>jar</packaging>
 
@@ -23,16 +23,11 @@
 	</properties>
 
 	<dependencies>
-		<!-- spring-cloud eureka client -->
+		<!-- itrip-commons -->
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
-
-		<!-- spring-cloud openfeign远程调用 -->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<groupId>cn.ekgc.itrip</groupId>
+			<artifactId>itrip-commons</artifactId>
+			<version>${parent.version}</version>
 		</dependency>
 
 		<dependency>
