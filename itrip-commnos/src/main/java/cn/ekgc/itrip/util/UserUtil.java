@@ -8,9 +8,9 @@ package cn.ekgc.itrip.util;
  */
 public class UserUtil {
 	// Email地址正则表达式
-	private static final String emailRegEx = "^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$";
+	public static final String emailRegEx = "^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$";
 	// 手机号码正则表达式
-	private static final String CellphoneRegEx = "^1[0-9]{10}$";
+	public static final String cellphoneRegEx = "^1[0-9]{10}$";
 
 	/**
 	 * 校验User的userCode格式是否正确
@@ -21,7 +21,7 @@ public class UserUtil {
 		if (userCode != null && !"".equals(userCode.trim())) {
 			if (userCode.matches(emailRegEx)) {
 				return true;
-			} else if (userCode.matches(CellphoneRegEx)) {
+			} else if (userCode.matches(cellphoneRegEx)) {
 				return true;
 			}
 		}

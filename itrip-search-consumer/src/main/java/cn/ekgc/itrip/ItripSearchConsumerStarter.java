@@ -6,16 +6,16 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * iTrip项目主功能Biz Provider启动类
+ * iTrip项目搜索功能Search Consumer启动类
  * @author wang
  * @version 3.1.0
- * @since 2019-12-12
+ * @since 2019-12-18
  */
 @EnableFeignClients
 @EnableEurekaClient
 @SpringBootApplication
-public class ItripBizConsumerStarter {
+public class ItripSearchConsumerStarter {
 	public static void main(String[] args) {
-		SpringApplication.run(ItripBizConsumerStarter.class, args);
+		SpringApplication.run(ItripSearchConsumerStarter.class, args);
 	}
 }

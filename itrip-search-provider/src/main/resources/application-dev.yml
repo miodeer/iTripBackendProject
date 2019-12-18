@@ -1,10 +1,11 @@
 server:
-  port: 8888
+  port: 10001
 spring:
   application:
-    name: itrip-biz-consumer
-  main:
-    allow-bean-definition-overriding: true
+    name: itrip-search-provider
+  data:
+    solr:
+      host: http://localhost:8080/solr
 eureka:
   client:
     service-url:

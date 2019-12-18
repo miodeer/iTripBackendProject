@@ -1,8 +1,8 @@
 server:
-  port: 8888
+  port: 10000
 spring:
   application:
-    name: itrip-biz-consumer
+    name: itrip-search-consumer
   main:
     allow-bean-definition-overriding: true
 eureka:

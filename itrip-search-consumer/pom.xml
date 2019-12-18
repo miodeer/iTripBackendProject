@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.ekgc.itrip</groupId>
-	<artifactId>itrip-auth-consumer</artifactId>
+	<artifactId>itrip-search-consumer</artifactId>
 	<version>3.1.0</version>
 	<packaging>jar</packaging>
 

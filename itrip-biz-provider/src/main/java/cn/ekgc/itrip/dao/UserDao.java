@@ -21,4 +21,19 @@ public interface UserDao {
 	 * @throws Exception
 	 */
 	List<User> findUserByQuery(Map<String, Object> queryMap) throws Exception;
+
+	/**
+	 * 存储用户信息user
+	 * @param user
+	 * @throws Exception
+	 */
+	void saveUser(User user) throws Exception;
+
+	/**
+	 * 修改用户
+	 * @param user
+	 * @return
+	 * @throws Exception
+	 */
+	boolean updateUser(User user) throws Exception;
 }
